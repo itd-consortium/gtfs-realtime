@@ -43,37 +43,6 @@ The following protocol buffer data types are used to describe feed elements:
 
 Fields labeled as **experimental** are subject to change and not yet formally adopted into the specification. An **experimental** field may be formally adopted in the future.
 
-## Element Index
-
-*   [FeedMessage](#message-feedmessage)
-    *   [FeedHeader](#message-feedheader)
-        *   [Incrementality](#enum-incrementality)
-    *   [FeedEntity](#message-feedentity)
-        *   [TripUpdate](#message-tripupdate)
-            *   [TripDescriptor](#message-tripdescriptor)
-                *   [ScheduleRelationship](#enum-schedulerelationship-1)
-            *   [VehicleDescriptor](#message-vehicledescriptor)
-            *   [StopTimeUpdate](#message-stoptimeupdate)
-                *   [StopTimeEvent](#message-stoptimeevent)
-                *   [ScheduleRelationship](#enum-schedulerelationship)
-        *   [VehiclePosition](#message-vehicleposition)
-            *   [TripDescriptor](#message-tripdescriptor)
-                *   [ScheduleRelationship](#enum-schedulerelationship-1)
-            *   [VehicleDescriptor](#message-vehicledescriptor)
-            *   [Position](#message-position)
-            *   [VehicleStopStatus](#enum-vehiclestopstatus)
-            *   [CongestionLevel](#enum-congestionlevel)
-            *   [OccupancyStatus](#enum-occupancystatus)
-        *   [Alert](#message-alert)
-            *   [TimeRange](#message-timerange)
-            *   [EntitySelector](#message-entityselector)
-                *   [TripDescriptor](#message-tripdescriptor)
-                    *   [ScheduleRelationship](#enum-schedulerelationship-1)
-            *   [Cause](#enum-cause)
-            *   [Effect](#enum-effect)
-            *   [TranslatedString](#message-translatedstring)
-                *   [Translation](#message-translation)
-
 # Elements
 
 ## _message_ FeedMessage
