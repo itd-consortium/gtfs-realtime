@@ -1,6 +1,7 @@
 ---
 layout: realtime
 permalink: /realtime/
+lang: en
 ---
 
 # GTFS Realtime
